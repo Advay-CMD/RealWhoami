@@ -76,6 +76,8 @@ int main() {
     PrintUsername();
     PrintSID();
     PrintGroup();
+    std::cout << "Hostname       ";
+    system("hostname");
 
     std::cout << "\nOK.\n";
     return 0;
